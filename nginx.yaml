@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   namespace: nginx  # 네임스페이스 추가
 spec:
-  replicas: 4
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
